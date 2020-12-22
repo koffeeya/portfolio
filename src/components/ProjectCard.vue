@@ -107,11 +107,10 @@ a:hover {
 
 .visual {
   width: 100%;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
   box-shadow: 5px 5px var(--main);
+  margin: 0px auto;
 }
-
 
 
 
@@ -119,6 +118,10 @@ a:hover {
   .project {
     grid-template-columns: 1fr;
     margin: 80px 10px;
+  }
+
+  .visual-wrapper {
+    max-width: 100%;
   }
   
 }

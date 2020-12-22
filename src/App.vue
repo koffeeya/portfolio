@@ -8,10 +8,10 @@
       <br>
       <h2 class='subheading'>ABOUT ME</h2>
       <p>
-        I am a full-time data analyst at Community Solutions, and working towards a M.S. in Data Analysis & Visualization at the CUNY Graduate Center.
+        I currently serve as a Data Analyst for Community Solutions, a nonprofit ending homelessness. I'm also working on a M.S. in Data Analysis & Visualization at the CUNY Graduate Center.
         <br>
         <br>
-        I primarily work in Tableau, D3, Vue, and Python, but I like using (and learning) any tool that’s right for the job. Check out some of my work and reach out anytime to chat!
+        Both roles have given me experience in Tableau, D3, Vue, and Python, but I like using (and learning) any tool that’s right for the job. Check out some of my work and connect with me.
       </p>
       <br>
         <br>
@@ -132,11 +132,14 @@ body {
 h1 {
   font-family: var(--title-font);
   font-size: 60px;
+  line-height: 60px;
   margin: 0;
 }
 
 h2 {
   font-size: 40px;
+  line-height: 40px;
+  margin: 10px 0px;
 }
 
 p {
@@ -186,6 +189,14 @@ p {
   column-gap: 0px;
   row-gap: 0px;
   grid-template-columns: repeat(1, 1fr);
+}
+
+@media only screen and (max-width: 1450px) {
+
+  p {
+    font-size: 16px;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {
