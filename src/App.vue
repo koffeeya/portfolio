@@ -5,8 +5,8 @@
         <div class="maintitle">
           <h1 class="title">KAVYA BEHERAJ</h1>
           <h3 class="subheading">
-            Designer and developer creating human-centered data experiences with
-            genuine curiosity.
+            Data visualization developer building experiences that get humans
+            curious about data.
           </h3>
           <br />
         </div>
@@ -19,9 +19,9 @@
             <p>
               I am a data analyst and web developer based in Brooklyn, NY,
               currently pursuing a M.S. in Data Analysis & Visualization at the
-              CUNY Graduate Center. I like obsessing over details, watching
-              video essays, and going for long walks in the cemetery near my
-              home.
+              CUNY Graduate Center. I like obsessing over design details,
+              watching video essays, and going for long walks in the cemetery
+              near my home.
               <br />
               <br />
               I have experience in Tableau, D3, Vue, R, and Python, but I'm down
