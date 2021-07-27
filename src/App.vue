@@ -13,20 +13,35 @@
 
         <div class="aboutme">
           <div class="aboutme-header">
-            <h2 class="subheading">ABOUT ME</h2>
+            <h2 class="subheading">About Me</h2>
           </div>
           <div class="aboutme-text">
             <p>
-              I am a data analyst and web developer based in Brooklyn, NY,
-              currently pursuing a M.S. in Data Analysis & Visualization at the
-              CUNY Graduate Center. I like obsessing over design details,
-              watching video essays, and going for long walks in the cemetery
+              I am a data analyst and front-end developer based in Brooklyn, NY.
+              I'm currently building data vizzes in mission-driven spaces and
+              pursuing a part-time
+              <a
+                href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Masters-Programs/Data-Analysis-and-Visualization"
+                target="_blank"
+                rel="noopener noreferrer"
+                >M.S. in Data Analysis & Visualization</a
+              >.
+              <br />
+              <br />
+              I have experience in Tableau, D3, Vue, R, and Python, but I'm
+              always ready to use (and learn) any tool that’s right for the job.
+              Check out my work and connect with me!
+              <br />
+              <br />
+              If I get a free moment, I love listening to podcasts and going for
+              long walks in the
+              <a
+                href="https://www.green-wood.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >cemetery / park</a
+              >
               near my home.
-              <br />
-              <br />
-              I have experience in Tableau, D3, Vue, R, and Python, but I'm down
-              to use (and learn) any tool that’s right for the job. Check out my
-              work and connect with me.
             </p>
             <br />
             <br />
@@ -34,7 +49,7 @@
         </div>
 
         <div class="contactme">
-          <h2 class="subheading">CONTACT ME</h2>
+          <h2 class="subheading">Get In Touch</h2>
           <div class="contactme-content">
             <div class="contactme-image">
               <img class="headshotImg" :src="headshotUrl" alt="Kavya Beheraj" />
@@ -59,7 +74,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  kavya.beheraj@gmail.com</a
+                  &nbsp;kavya.beheraj@gmail.com</a
                 >
               </div>
               <div class="contact-icon">
@@ -81,7 +96,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  kavyabeheraj</a
+                  &nbsp;kavyabeheraj</a
                 >
               </div>
               <div class="contact-icon">
@@ -103,7 +118,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  koffeeya</a
+                  &nbsp;koffeeya</a
                 >
               </div>
             </div>
@@ -221,7 +236,7 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 32px;
   line-height: 35px;
   margin: 10px 0px;
 }
@@ -230,6 +245,16 @@ p {
   font-size: 20px;
   margin: 0;
   font-family: var(--body-font);
+}
+
+a {
+  color: white;
+  text-decoration: underline var(--pop);
+}
+
+a:hover {
+  color: var(--pop);
+  text-decoration: none;
 }
 
 .headshotImg {
@@ -242,8 +267,8 @@ p {
 
 .contactme-content {
   display: grid;
-  grid-template-columns: 2fr 3.1fr;
-  column-gap: 5px;
+  grid-template-columns: 1.05fr 3.1fr;
+  column-gap: 15px;
   font-size: 15px;
 }
 

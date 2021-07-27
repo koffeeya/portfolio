@@ -7,7 +7,7 @@
     "build": "vue-cli-service build --public-url https://koffeeya.github.io/portfolio/",
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist",
-    "push": "yarn build && yarn deploy"
+    "push": "yarn upgrade && yarn build && yarn deploy"
   },
   "dependencies": {
     "core-js": "^3.6.5",
