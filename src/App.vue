@@ -17,7 +17,7 @@
           </div>
           <div class="aboutme-text">
             <p>
-              I am a data analyst and front-end developer based in Brooklyn, NY.
+              I am a data analyst and front-end developer based in Brooklyn, N.Y.
               I'm currently building data vizzes in mission-driven spaces and
               pursuing a part-time
               <a
