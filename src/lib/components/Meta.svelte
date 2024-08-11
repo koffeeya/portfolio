@@ -10,7 +10,7 @@
 	<!-- Link preview -->
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:url" content="https://koffeeya.github.io/portfolio/" />
+	<meta property="og:url" content="https://www.kavyabeheraj.com/" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
