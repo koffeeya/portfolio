@@ -23,7 +23,7 @@
 		{:else}
 			<a href={data.link} target="_blank">
 				<img
-					src="https://raw.githubusercontent.com/koffeeya/portfolio/master/src/static/{data.slug}.png"
+					src="https://raw.githubusercontent.com/koffeeya/portfolio/master/src/static/thumbnails/{data.slug}.png"
 					alt={data.alt}
 				/>
 			</a>

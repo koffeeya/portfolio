@@ -6,10 +6,16 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import Masonry from 'svelte-masonry-layout';
 	import ScrollToTop from '../lib/components/ScrollToTop.svelte';
+	import { onMount } from 'svelte';
 
 	const data = rawData.data;
-	const categories = ['Short-form', 'Long-form', 'Interviews'];
 	const masonryGap = '13px';
+
+	let updateGrid = () => {};
+
+	onMount(() => {
+		updateGrid();
+	});
 </script>
 
 <div id="root" class="theme-{$theme}">
@@ -37,7 +43,7 @@
 				<div class="category-title" id="category-{category.toLowerCase().replace('-', '')}">
 					<h3>{copy.categories[category].name}</h3>
 				</div>
-				<Masonry gap={masonryGap}>
+				<Masonry gap={masonryGap} bind:updateGrid>
 					{#each data.filter((d) => d.active == 'TRUE' && d.category == copy.categories[category].name) as project}
 						<ProjectCard data={project} />
 					{/each}
