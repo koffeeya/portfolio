@@ -163,7 +163,7 @@
 		font-size: 1rem;
 	}
 
-	@media only screen and (max-width: 1700px) {
+	@media only screen and (max-width: 1750px) {
 		#root {
 			padding: 0% 6%;
 		}
