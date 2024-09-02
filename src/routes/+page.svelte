@@ -7,7 +7,7 @@
 	import ScrollToTop from '../lib/components/ScrollToTop.svelte';
 	import Masonry from 'svelte-bricks';
 
-	let [minColWidth, maxColWidth, gap] = [300, 800, 10];
+	let [minColWidth, maxColWidth, gap] = [300, 600, 10];
 
 	let promise = getData();
 
@@ -161,6 +161,12 @@
 		font-family: var(--mono-font);
 		text-transform: uppercase;
 		font-size: 1rem;
+	}
+
+	@media only screen and (max-width: 1700px) {
+		#root {
+			padding: 0% 6%;
+		}
 	}
 
 	@media only screen and (max-width: 650px) {
