@@ -1,7 +1,7 @@
 <script>
 	export let data;
+	console.log(data);
 	import Category from './Category.svelte';
-	const technologies = data.technologies.split(',');
 </script>
 
 <div class="project" id="project-{data.slug}">
@@ -10,13 +10,17 @@
 	</div>
 
 	<div class="project-title">
-		<a href={data.link} target="_blank">
+		{#if data.link}
+			<a href={data.link} target="_blank">
+				<h2>{data.title}</h2>
+			</a>
+		{:else}
 			<h2>{data.title}</h2>
-		</a>
+		{/if}
 	</div>
 
 	<div class="project-image">
-		{#if data.image.length > 0}
+		{#if data.image}
 			<a href={data.link} target="_blank">
 				<img src={data.image} alt={data.alt} />
 			</a>
@@ -32,11 +36,11 @@
 
 	<div class="project-content">
 		<div class="project-subtitle">
-			{#if data.technologies.length > 0}
+			{#if data.technologies}
 				<span style="display: flex;">
 					<p class="project-date">{data.date}</p>
 					<div class="project-technologies">
-						{#each technologies as tech}
+						{#each data.technologies.split(',') as tech}
 							<Category value={tech} category="technologies" />
 						{/each}
 					</div>
@@ -46,13 +50,13 @@
 			{/if}
 		</div>
 
-		{#if data.description.length > 0}
+		{#if data.description}
 			<div class="project-description">
 				<p>{@html data.description}</p>
 			</div>
 		{/if}
 
-		{#if data.awards.length > 0}
+		{#if data.awards}
 			<div class="project-awards">
 				<p>🏆 {data.awards}</p>
 			</div>

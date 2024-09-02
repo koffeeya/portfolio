@@ -1,21 +1,26 @@
 <script>
 	import { theme } from '../stores.js';
 	import copy from '$lib/data/copy.json';
-	import rawData from '$lib/data/data.json';
 	import Meta from '$lib/components/Meta.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
-	import Masonry from 'svelte-masonry-layout';
+	//import Masonry from 'svelte-masonry-layout';
 	import ScrollToTop from '../lib/components/ScrollToTop.svelte';
-	import { onMount } from 'svelte';
+	import Masonry from 'svelte-bricks';
 
-	const data = rawData.data;
-	const masonryGap = '13px';
+	let [minColWidth, maxColWidth, gap] = [300, 800, 10];
 
-	let updateGrid = () => {};
+	let promise = getData();
 
-	onMount(() => {
-		updateGrid();
-	});
+	async function getData() {
+		const res = await import('$lib/data/data.json');
+		const data = await res.data;
+
+		if (res) {
+			return data;
+		} else {
+			throw new Error('error');
+		}
+	}
 </script>
 
 <div id="root" class="theme-{$theme}">
@@ -39,16 +44,30 @@
 		</div>
 
 		<div class="projects">
-			{#each Object.keys(copy.categories) as category}
-				<div class="category-title" id="category-{category.toLowerCase().replace('-', '')}">
-					<h3>{copy.categories[category].name}</h3>
-				</div>
-				<Masonry gap={masonryGap} bind:updateGrid>
-					{#each data.filter((d) => d.active == 'TRUE' && d.category == copy.categories[category].name) as project}
-						<ProjectCard data={project} />
-					{/each}
-				</Masonry>
-			{/each}
+			{#await promise}
+				<p>Loading...</p>
+			{:then data}
+				{#each Object.keys(copy.categories) as category}
+					<div class="category-title" id="category-{category.toLowerCase().replace('-', '')}">
+						<h3>{copy.categories[category].name}</h3>
+					</div>
+
+					<Masonry
+						items={data.filter(
+							(d) => d.active == 'TRUE' && d.category == copy.categories[category].name
+						)}
+						{minColWidth}
+						{maxColWidth}
+						{gap}
+						let:item
+						idKey="slug"
+					>
+						<ProjectCard data={item} />
+					</Masonry>
+				{/each}
+			{:catch error}
+				<p>{error.message}</p>
+			{/await}
 		</div>
 	</div>
 
