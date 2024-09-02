@@ -19,20 +19,22 @@
 		{/if}
 	</div>
 
-	<div class="project-image">
-		{#if data.image}
-			<a href={data.link} target="_blank">
-				<img src={data.image} alt={data.alt} />
-			</a>
-		{:else}
-			<a href={data.link} target="_blank">
-				<img
-					src="https://raw.githubusercontent.com/koffeeya/portfolio/master/src/static/thumbnails/{data.slug}.png"
-					alt={data.alt}
-				/>
-			</a>
-		{/if}
-	</div>
+	{#if data.alt}
+		<div class="project-image">
+			{#if data.image}
+				<a href={data.link} target="_blank">
+					<img src={data.image} alt={data.alt} />
+				</a>
+			{:else}
+				<a href={data.link} target="_blank">
+					<img
+						src="https://raw.githubusercontent.com/koffeeya/portfolio/master/src/static/thumbnails/{data.slug}.png"
+						alt={data.alt}
+					/>
+				</a>
+			{/if}
+		</div>
+	{/if}
 
 	<div class="project-content">
 		<div class="project-subtitle">
