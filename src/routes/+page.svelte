@@ -141,10 +141,10 @@
 	}
 
 	.contact-link > a {
-		margin: 5px 8px 0px 0px;
+		margin: 5px 5px 0px 0px;
 		width: fit-content;
 		background-color: #ffffff4d;
-		padding: 6px 10px;
+		padding: 6px 9px;
 		border-radius: 5px;
 		transition: 0.1s ease-in-out all;
 		white-space: nowrap;
