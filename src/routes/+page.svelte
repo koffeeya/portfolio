@@ -49,7 +49,7 @@
 			{:then data}
 				{#each Object.keys(copy.categories) as category}
 					<div class="category-title" id="category-{category.toLowerCase().replace('-', '')}">
-						<h3>{copy.categories[category].name}</h3>
+						<h3>{copy.categories[category].display}</h3>
 					</div>
 
 					<Masonry
