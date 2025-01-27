@@ -60,7 +60,9 @@
 
 		{#if data.awards}
 			<div class="project-awards">
-				<p>🏆 {data.awards}</p>
+				{#each data.awards.split(',') as award}
+					<p class="project-award-line">🏆 {award}</p>
+				{/each}
 			</div>
 		{/if}
 	</div>
@@ -110,8 +112,11 @@
 
 	.project-awards {
 		margin: 5px 0px 10px 0px;
-		line-height: 1.1rem;
-		text-wrap: pretty;
+	}
+
+	.project-award-line {
+		line-height: 1rem;
+		margin: 0px 0px 3px 0px;
 	}
 
 	.project-date {
