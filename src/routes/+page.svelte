@@ -54,7 +54,9 @@
 
 					<Masonry
 						items={data.filter(
-							(d) => d.active == 'TRUE' && d.category == copy.categories[category].name
+							(d) =>
+								(d.active == 'TRUE' || d.active == true) &&
+								d.category == copy.categories[category].name
 						)}
 						{minColWidth}
 						{maxColWidth}
