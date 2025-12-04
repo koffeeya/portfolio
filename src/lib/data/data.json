@@ -29,6 +29,20 @@
 			"awards": ""
 		},
 		{
+			"slug": "homicide-rates-highest-blue-cities-red-states",
+			"title": "Where homicide rates are highest: Blue cities in red states",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2025/08/15/homicide-rates-highest-blue-cities-red-states",
+			"image": "https://datawrapper.dwcdn.net/F9Oqu/fallback.png",
+			"alt": "A symbol map showing 20 U.S. cities with the highest reported homicide rates in 2024, among cities with at least 100k people. Jackson, Mississippi, has a rate of about 78 per 100k people, the highest among all cities and 15 times higher than the national average. D.C. ranks 11th and has a rate of 25.5 per 100k people.",
+			"description": "",
+			"date": "Aug 2025",
+			"location": "Axios",
+			"technologies": "Datawrapper",
+			"awards": ""
+		},
+		{
 			"slug": "house-democrats-2026-primary-challenges-age",
 			"title": "Democrats' big age headache is becoming a migraine",
 			"active": true,
@@ -54,6 +68,20 @@
 			"date": "Jul 2025",
 			"location": "Axios",
 			"technologies": "Adobe Illustrator",
+			"awards": ""
+		},
+		{
+			"slug": "trump-ice-raids-arrests-immigration",
+			"title": "Noncriminal ICE arrests spiked in June",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2025/07/17/trump-ice-raids-arrests-immigration",
+			"image": "https://datawrapper.dwcdn.net/zEtXo/fallback.png",
+			"alt": "A line chart showing daily arrests by ICE from January 7 to June 26, 2025 as a seven-day trailing average. Before the daily arrest quota was tripled on May 21, people with no criminal charges or convictions accounted for about 21% of daily arrests. After the change, the share spiked to 47%. As of June 26, ICE reported an average of 930 arrests per day, about 42% of which were people with no criminal record.",
+			"description": "",
+			"date": "Jul 2025",
+			"location": "Axios",
+			"technologies": "Datawrapper",
 			"awards": ""
 		},
 		{
