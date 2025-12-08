@@ -1,6 +1,20 @@
 {
 	"data": [
 		{
+			"slug": "home-value-loss-map",
+			"title": "Where homes are losing value most",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2025/12/08/home-value-loss-map",
+			"image": "https://graphics.axios.com/2025-12-01-home-lost-value/fallbacks/2025-12-01-home-lost-value-fallback.png",
+			"alt": "A series of maps of U.S. metro areas showing the share of homes that lost value year-over-year, from 2020 to 2025. According to the Zillow home value index, 53% of homes lost value from 2024 to 2025. That share was just 5% from 2019 to 2020. In 2025, the share was highest in Florida and California, and lowest in Connecticut and Rhode Island.",
+			"description": "",
+			"date": "Dec 2025",
+			"location": "Axios",
+			"technologies": "Svelte",
+			"awards": ""
+		},
+		{
 			"slug": "harris-county-road-safety-plan-together",
 			"title": "Harris County to spend $37 million on roadway safety in Precinct 1",
 			"active": true,
@@ -31,7 +45,7 @@
 		{
 			"slug": "homicide-rates-highest-blue-cities-red-states",
 			"title": "Where homicide rates are highest: Blue cities in red states",
-			"active": true,
+			"active": false,
 			"category": "short-form",
 			"link": "https://www.axios.com/2025/08/15/homicide-rates-highest-blue-cities-red-states",
 			"image": "https://datawrapper.dwcdn.net/F9Oqu/fallback.png",
