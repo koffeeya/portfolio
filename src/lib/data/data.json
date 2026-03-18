@@ -183,6 +183,20 @@
 			"awards": ""
 		},
 		{
+			"slug": "austin-home-prices-low",
+			"title": "Most Austin homes are selling below asking price",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/local/austin/2025/04/30/austin-home-prices-low",
+			"image": "https://datawrapper.dwcdn.net/psoGE/fallback.png",
+			"alt": "An area chart showing the share of homes sold in the Austin metro area relative to their original list price from January 2019 to February 2025. As of February 2025, 80% of homes sold for below their original list price, while 10% sold at the original price and 10% sold above it.",
+			"description": "",
+			"date": "Apr 2025",
+			"location": "Axios",
+			"technologies": "Datawrapper",
+			"awards": ""
+		},
+		{
 			"slug": "trumps-executive-orders-memos",
 			"title": "Tracking Trump's executive actions by category",
 			"active": true,
@@ -264,20 +278,6 @@
 			"date": "May 2024",
 			"location": "Axios",
 			"technologies": "Adobe Illustrator",
-			"awards": ""
-		},
-		{
-			"slug": "palestinian-college-protest-arrest-encampment",
-			"title": "Mapped: Where pro-Palestinian student protesters have been arrested",
-			"active": true,
-			"category": "short-form",
-			"link": "https://www.axios.com/2024/04/27/palestinian-college-protest-arrest-encampment",
-			"image": "https://graphics.axios.com/2024-04-30-encampments-map/fallbacks/2024-04-30-encampments-map-fallback.png",
-			"alt": "Locator map of college campuses with reported encampments or sit-ins related to the war in Gaza. There have been at least 135 reported encampments as of May 13, with the most clustered in universities in the Northeast. At least 62 campuses have reported police arrests.",
-			"description": "",
-			"date": "May 2024",
-			"location": "Axios",
-			"technologies": "Adobe Illustrator, Svelte",
 			"awards": ""
 		},
 		{
