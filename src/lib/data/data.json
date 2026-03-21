@@ -1,15 +1,29 @@
 {
 	"data": [
 		{
-			"slug": "winter-olympics-schedule-watch-opening-ceremony",
-			"title": "How, when and where to watch the 2026 Winter Olympics",
+			"slug": "white-house-trump-changes-photos",
+			"title": "White House makeover under Trump: See all the proposed changes",
 			"active": true,
 			"category": "short-form",
-			"link": "https://www.axios.com/2026/02/06/winter-olympics-schedule-watch-opening-ceremony",
-			"image": "https://graphics.axios.com/2026-01-30-winter-olympics-map/fallbacks/2026-01-30-winter-olympics-map-fallback.png",
-			"alt": "A symbol map of northern Italy showing 2026 Winter Olympics events. 21 events are taking place across 8 cities, such as Milan, Cortina d’Ampezzo and Verona. Events include ceremonies, ice events, Nordic events, and Alpine skiing and snowboarding.",
-			"description": "With illustrator Allie Carl",
-			"date": "Feb 2026",
+			"link": "https://www.axios.com/2026/03/19/white-house-trump-changes-photos",
+			"image": "https://datawrapper.dwcdn.net/IlHyB/fallback.png",
+			"alt": "A map of the White House showing changes that Trump and his allies have proposed and completed. As of March 16, 2026, Trump has paved over the Rose Garden and installed a flagpole. Changes in progress include reconstruction of the East Wing, West Wing and potentially the North Portico.",
+			"description": "",
+			"date": "Mar 2026",
+			"location": "Axios",
+			"technologies": "Datawrapper",
+			"awards": ""
+		},
+		{
+			"slug": "newsroom-strike-contract-fight",
+			"title": "Newsroom strikes surge amid prolonged union contract fights",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/media-trends-membership/2026/03/07/newsroom-strike-contract-fight",
+			"image": "https://graphics.axios.com/2026-03-07-union-timeline/fallbacks/2026-03-07-union-timeline-fallback.png",
+			"alt": "A group of range plots showing the length of time that 40 U.S. news unions took to reach a deal from 2017 to 2026. On average, it took 3.4 years and at least one strike or strike authorization. 15 unions took 1-3 years, 14 took 3-5 years, 6 took more than five years, and a deal was not reached for 5 unions. The Chicago Tribune Guild took the longest, with 6.5 years and one strike.",
+			"description": "",
+			"date": "Mar 2026",
 			"location": "Axios",
 			"technologies": "Adobe Illustrator",
 			"awards": ""
@@ -26,6 +40,34 @@
 			"date": "Feb 2026",
 			"location": "Axios",
 			"technologies": "Svelte",
+			"awards": ""
+		},
+		{
+			"slug": "winter-olympics-schedule-watch-opening-ceremony",
+			"title": "How, when and where to watch the 2026 Winter Olympics",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2026/02/06/winter-olympics-schedule-watch-opening-ceremony",
+			"image": "https://graphics.axios.com/2026-01-30-winter-olympics-map/fallbacks/2026-01-30-winter-olympics-map-fallback.png",
+			"alt": "A symbol map of northern Italy showing 2026 Winter Olympics events. 21 events are taking place across 8 cities, such as Milan, Cortina d’Ampezzo and Verona. Events include ceremonies, ice events, Nordic events, and Alpine skiing and snowboarding.",
+			"description": "With illustrator Allie Carl",
+			"date": "Feb 2026",
+			"location": "Axios",
+			"technologies": "Adobe Illustrator",
+			"awards": ""
+		},
+		{
+			"slug": "webinar-recap-storytelling-with-graphics-from-raw-data-to-reader-impact",
+			"title": "Storytelling with graphics: From raw data to reader impact",
+			"active": true,
+			"category": "interviews",
+			"link": "https://observablehq.com/blog/webinar-recap-storytelling-with-graphics-from-raw-data-to-reader-impact",
+			"image": "",
+			"alt": "",
+			"description": "",
+			"date": "Dec 2025",
+			"location": "Observable",
+			"technologies": "",
 			"awards": ""
 		},
 		{
@@ -59,7 +101,7 @@
 		{
 			"slug": "social-media-instagram-snapchat-youth-gun-homicides",
 			"title": "How social media played part in 1/3 of youth gun homicides in Indianapolis",
-			"active": false,
+			"active": true,
 			"category": "short-form",
 			"link": "https://www.axios.com/local/indianapolis/2025/09/08/social-media-instagram-snapchat-youth-gun-homicides",
 			"image": "https://graphics.axios.com/2025-09-08-indianpolis-youth-gun-violence-social/fallbacks/2025-09-08-indianpolis-youth-gun-violence-social-fallback.png",
@@ -73,7 +115,7 @@
 		{
 			"slug": "homicide-rates-highest-blue-cities-red-states",
 			"title": "Where homicide rates are highest: Blue cities in red states",
-			"active": false,
+			"active": true,
 			"category": "short-form",
 			"link": "https://www.axios.com/2025/08/15/homicide-rates-highest-blue-cities-red-states",
 			"image": "https://datawrapper.dwcdn.net/F9Oqu/fallback.png",
@@ -281,17 +323,17 @@
 			"awards": ""
 		},
 		{
-			"slug": "direction-carlys-dog-roman",
-			"title": "Direction Carly's dog Roman faces when he poops",
-			"active": false,
+			"slug": "palestinian-college-protest-arrest-encampment",
+			"title": "Mapped: Where pro-Palestinian student protesters have been arrested",
+			"active": true,
 			"category": "short-form",
-			"link": "https://www.axios.com/newsletters/axios-finish-line-42ea707e-fc87-4ee2-adb8-a40734accda4.html?chunk=1&utm_campaign=axios_app#story1",
-			"image": "https://datawrapper.dwcdn.net/wNxNe/fallback.png",
-			"alt": "Graphic showing the compass direction that Carly’s dog Roman faces when he poops, from 31 poops recorded from March 12 to April 10, 2024. Roman aligned with the North-South axis for 52% of poops. He rarely aligned with the East-West axis, with only 5 poops facing that direction.",
+			"link": "https://www.axios.com/2024/04/27/palestinian-college-protest-arrest-encampment",
+			"image": "https://graphics.axios.com/2024-04-30-encampments-map/fallbacks/2024-04-30-encampments-map-fallback.png",
+			"alt": "Locator map of college campuses with reported encampments or sit-ins related to the war in Gaza. There have been at least 135 reported encampments as of May 13, with the most clustered in universities in the Northeast. At least 62 campuses have reported police arrests.",
 			"description": "",
-			"date": "Apr 2024",
+			"date": "May 2024",
 			"location": "Axios",
-			"technologies": "Datawrapper",
+			"technologies": "Adobe Illustrator, Svelte",
 			"awards": ""
 		},
 		{
@@ -306,6 +348,20 @@
 			"date": "Apr 2024",
 			"location": "Axios",
 			"technologies": "Adobe Illustrator",
+			"awards": ""
+		},
+		{
+			"slug": "direction-carlys-dog-roman",
+			"title": "Direction Carly's dog Roman faces when he poops",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/newsletters/axios-finish-line-42ea707e-fc87-4ee2-adb8-a40734accda4.html?chunk=1&utm_campaign=axios_app#story1",
+			"image": "https://datawrapper.dwcdn.net/wNxNe/fallback.png",
+			"alt": "Graphic showing the compass direction that Carly’s dog Roman faces when he poops, from 31 poops recorded from March 12 to April 10, 2024. Roman aligned with the North-South axis for 52% of poops. He rarely aligned with the East-West axis, with only 5 poops facing that direction.",
+			"description": "",
+			"date": "Apr 2024",
+			"location": "Axios",
+			"technologies": "Datawrapper",
 			"awards": ""
 		},
 		{
@@ -407,20 +463,6 @@
 			"awards": ""
 		},
 		{
-			"slug": "video-game-sequels-wait",
-			"title": "The wait between major video game sequels is getting longer",
-			"active": true,
-			"category": "short-form",
-			"link": "https://www.axios.com/2023/08/11/video-game-sequels-wait",
-			"image": "https://graphics.axios.com/2023-08-04-gaming-sequels/fallbacks/2023-08-04-gaming-sequels-social.png",
-			"alt": "A chart shows the timing of releases among these game series: The Legend of Zelda, Grand Theft Auto, Halo, Call of Duty, God of War and Assassin's Creed. While Call of Duty has kept its yearly cadence, most of the other series have slowed releasing sequels in recent years. Grand Theft Auto has not had a new release in a decade, although a new game is in development. The other series have had gaps of up to six years between games.",
-			"description": "",
-			"date": "Aug 2023",
-			"location": "Axios",
-			"technologies": "Adobe Illustrator",
-			"awards": ""
-		},
-		{
 			"slug": "explaining-complicated-ideas-processes-with-digestible-and-impactful-graphics",
 			"title": "Explaining complicated ideas, processes with digestible and impactful graphics",
 			"active": true,
@@ -432,6 +474,20 @@
 			"date": "Aug 2023",
 			"location": "Reynolds Journalism Institute",
 			"technologies": "",
+			"awards": ""
+		},
+		{
+			"slug": "video-game-sequels-wait",
+			"title": "The wait between major video game sequels is getting longer",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2023/08/11/video-game-sequels-wait",
+			"image": "https://graphics.axios.com/2023-08-04-gaming-sequels/fallbacks/2023-08-04-gaming-sequels-social.png",
+			"alt": "A chart shows the timing of releases among these game series: The Legend of Zelda, Grand Theft Auto, Halo, Call of Duty, God of War and Assassin's Creed. While Call of Duty has kept its yearly cadence, most of the other series have slowed releasing sequels in recent years. Grand Theft Auto has not had a new release in a decade, although a new game is in development. The other series have had gaps of up to six years between games.",
+			"description": "",
+			"date": "Aug 2023",
+			"location": "Axios",
+			"technologies": "Adobe Illustrator",
 			"awards": ""
 		},
 		{
@@ -463,20 +519,6 @@
 			"awards": ""
 		},
 		{
-			"slug": "the-women-of-venus",
-			"title": "The women of Venus",
-			"active": true,
-			"category": "short-form",
-			"link": "https://www.axios.com/2023/03/04/the-women-of-venus",
-			"image": "https://graphics.axios.com/2023-03-04-venus-women/fallbacks/2023-03-04-venus-women-social.png",
-			"alt": "Comic showing famous women who serve as namesakes for surface features on Venus. The top panel shows a cloud-covered view of Venus, with annotations pointing out its acid clouds and 190 mph winds. Next to it is a radar image of Venus's surface, with annotations for its 900 °F surface temperature and atmosphere 90 times denser than the Earth. Below that are two bar charts; the first shows that nearly 60% of famous women on Venus come from Europe, with only 0.9% coming from South America. The second shows that 40% of the women are writers, the most common profession, followed by 25% who are scientists.",
-			"description": "",
-			"date": "Mar 2023",
-			"location": "Axios",
-			"technologies": "Adobe Illustrator",
-			"awards": ""
-		},
-		{
 			"slug": "goddesses-and-scientists-heroines-and-nobles-visualizing-women-venus",
 			"title": "Goddesses and Scientists, Heroines and Nobles: Visualizing the Women of Venus",
 			"active": true,
@@ -491,15 +533,15 @@
 			"awards": ""
 		},
 		{
-			"slug": "putin-long-war-ukraine-invasion-next-steps-end",
-			"title": "Preparing for Putin's long war",
+			"slug": "the-women-of-venus",
+			"title": "The women of Venus",
 			"active": true,
 			"category": "short-form",
-			"link": "https://www.axios.com/2023/02/24/putin-long-war-ukraine-invasion-next-steps-end",
-			"image": "https://graphics.axios.com/2023-02-23-ukraine-maps/fallbacks/2023-02-23-ukraine-maps-fallback.png",
-			"alt": "Side-by-side maps showing the change in approximate Russian-occupied territory in Ukraine on March 6, 2022 and February 21, 2023. 20% of territory was occupied in March, spread across the south, east and north of the country. As of February, 18% of territory is occupied, mostly concentrated in the eastern Donbas region, and the south.",
+			"link": "https://www.axios.com/2023/03/04/the-women-of-venus",
+			"image": "https://graphics.axios.com/2023-03-04-venus-women/fallbacks/2023-03-04-venus-women-social.png",
+			"alt": "Comic showing famous women who serve as namesakes for surface features on Venus. The top panel shows a cloud-covered view of Venus, with annotations pointing out its acid clouds and 190 mph winds. Next to it is a radar image of Venus's surface, with annotations for its 900 °F surface temperature and atmosphere 90 times denser than the Earth. Below that are two bar charts; the first shows that nearly 60% of famous women on Venus come from Europe, with only 0.9% coming from South America. The second shows that 40% of the women are writers, the most common profession, followed by 25% who are scientists.",
 			"description": "",
-			"date": "Feb 2023",
+			"date": "Mar 2023",
 			"location": "Axios",
 			"technologies": "Adobe Illustrator",
 			"awards": ""
@@ -516,6 +558,20 @@
 			"date": "Feb 2023",
 			"location": "CUNY Graduate Center",
 			"technologies": "Svelte, ThreeJS, Python",
+			"awards": ""
+		},
+		{
+			"slug": "putin-long-war-ukraine-invasion-next-steps-end",
+			"title": "Preparing for Putin's long war",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2023/02/24/putin-long-war-ukraine-invasion-next-steps-end",
+			"image": "https://graphics.axios.com/2023-02-23-ukraine-maps/fallbacks/2023-02-23-ukraine-maps-fallback.png",
+			"alt": "Side-by-side maps showing the change in approximate Russian-occupied territory in Ukraine on March 6, 2022 and February 21, 2023. 20% of territory was occupied in March, spread across the south, east and north of the country. As of February, 18% of territory is occupied, mostly concentrated in the eastern Donbas region, and the south.",
+			"description": "",
+			"date": "Feb 2023",
+			"location": "Axios",
+			"technologies": "Adobe Illustrator",
 			"awards": ""
 		},
 		{
@@ -561,20 +617,6 @@
 			"awards": ""
 		},
 		{
-			"slug": "looking-back-on-the-cryptocurrency-horse-race",
-			"title": "Looking back on the cryptocurrency horse race",
-			"active": true,
-			"category": "short-form",
-			"link": "https://www.axios.com/2022/07/29/looking-back-on-the-cryptocurrency-horse-race",
-			"image": "https://graphics.axios.com/2022-07-27-crypto-rank/fallbacks/2022-07-27-crypto-rank-fallback.png",
-			"alt": "A bump chart showing top cryptocurrency over time, by market cap, from 2017 to 2022. Bitcoin and Tether have remained in the #1 and #2 spots, with Tether taking over #3 in the last 3 years. The coins holding the ranks below that have shifted considerably since 2019.",
-			"description": "",
-			"date": "Jul 2022",
-			"location": "Axios",
-			"technologies": "Adobe Illustrator",
-			"awards": ""
-		},
-		{
 			"slug": "behind-the-scenes-with-axios-data-visualization",
 			"title": "Behind the Scenes with Axios Data Visualization",
 			"active": true,
@@ -586,6 +628,20 @@
 			"date": "Jul 2022",
 			"location": "Nightingale",
 			"technologies": "",
+			"awards": ""
+		},
+		{
+			"slug": "looking-back-on-the-cryptocurrency-horse-race",
+			"title": "Looking back on the cryptocurrency horse race",
+			"active": true,
+			"category": "short-form",
+			"link": "https://www.axios.com/2022/07/29/looking-back-on-the-cryptocurrency-horse-race",
+			"image": "https://graphics.axios.com/2022-07-27-crypto-rank/fallbacks/2022-07-27-crypto-rank-fallback.png",
+			"alt": "A bump chart showing top cryptocurrency over time, by market cap, from 2017 to 2022. Bitcoin and Tether have remained in the #1 and #2 spots, with Tether taking over #3 in the last 3 years. The coins holding the ranks below that have shifted considerably since 2019.",
+			"description": "",
+			"date": "Jul 2022",
+			"location": "Axios",
+			"technologies": "Adobe Illustrator",
 			"awards": ""
 		},
 		{
